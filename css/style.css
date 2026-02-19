@@ -1,0 +1,12 @@
+:root{
+    --text-color:white;
+    --bg-color: black;
+    --accent-color: #f9ee02;
+    --title-font: 'Cormorant', serif;
+    --text-font: 'Cormorant', serif;
+}
+body {
+font-family: var(--text-font);
+background-color: var(--bg-color);
+color: var(--text-color);
+}
