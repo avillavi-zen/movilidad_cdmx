@@ -5,15 +5,24 @@
     --title-font: 'Cormorant', serif;
     --text-font: 'Cormorant', serif;
 }
+html{
+    font-size: 10px;
+}
+
 body {
 font-family: var(--text-font);
 background-color: var(--bg-color);
 color: var(--text-color);
+font-size: 1.4rem;
+
 }
+h1 {
+    font-variation-settings:  "wght" 700;
+}
+
+
 a {
-    color:inherit
     color: var(--accent-color)
-}
-h1, h2, h3 {
-    font-family: var(--title-font);
+
+
 }
